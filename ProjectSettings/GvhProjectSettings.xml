@@ -1,0 +1,8 @@
+<projectSettings>
+  <projectSetting name="Google.IOSResolver.AutoPodToolInstallInEditor" value="True" />
+  <projectSetting name="Google.IOSResolver.CocoapodsIntegrationMethod" value="1" />
+  <projectSetting name="Google.IOSResolver.PodfileEnabled" value="True" />
+  <projectSetting name="Google.IOSResolver.PodToolExecutionViaShellEnabled" value="True" />
+  <projectSetting name="GooglePlayServices.PromptBeforeAutoResolution" value="False" />
+  <projectSetting name="GooglePlayServices.UseJetifier" value="False" />
+</projectSettings>

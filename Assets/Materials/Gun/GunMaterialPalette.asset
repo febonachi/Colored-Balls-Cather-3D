@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f1ca63a91b17724bbd99c8fa67e0180, type: 3}
+  m_Name: GunMaterialPalette
+  m_EditorClassIdentifier: 
+  array:
+  - {fileID: 2100000, guid: c22777d6e868e4f2fb421913386b154e, type: 2}
+  - {fileID: 2100000, guid: 209c91b4bf4bef047bfeb259cd499d67, type: 2}
+  - {fileID: 2100000, guid: 34ccd94051c9aeb43924591e869aef04, type: 2}
+  - {fileID: 2100000, guid: 6c00dcaf96772014c9ca4aef07d09199, type: 2}
+  - {fileID: 2100000, guid: c202d2e32cbbf7941804a009d8a7f049, type: 2}
+  - {fileID: 2100000, guid: 9f527febea1880749ac38abea6170c81, type: 2}
+  - {fileID: 2100000, guid: 36b139105fd65c74d92bc7b5decdfac6, type: 2}
+  - {fileID: 2100000, guid: 8c44c6f531746424e9fbb9ddfbb10573, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}

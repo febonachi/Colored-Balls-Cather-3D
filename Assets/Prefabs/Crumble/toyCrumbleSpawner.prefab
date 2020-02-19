@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8322430350186902872
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8322430350186902874}
+  - component: {fileID: 8322430350186902873}
+  m_Layer: 15
+  m_Name: toyCrumbleSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8322430350186902874
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8322430350186902872}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8322430350186902873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8322430350186902872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d33cefd65bd71344a9dbad797aed03b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color: {r: 1, g: 1, b: 1, a: 1}
+  poolID: 
+  prefabs:
+  - {fileID: 5092948713877669025, guid: bfe30e03f01143c48bae1190f53bd718, type: 3}
+  - {fileID: 5092228185864515178, guid: a2b84b4b2122c554da8ad7ece5ded06b, type: 3}
+  - {fileID: 1627385923616579033, guid: 540e05e409b6fcc4ebd8181ce7c4d092, type: 3}
+  overlapMask:
+    serializedVersion: 2
+    m_Bits: 65536
+  randomizeRotation: 1
+  dimension: {x: 3, y: 2, z: 3}
+  scale: {x: 0.6, y: 0.6, z: 0.6}
+  spacing: 0.5
+  explosionForce: 350
+  explosionUpForce: 5
+  explosionRadius: 5
+  explosionForceMode: 0
